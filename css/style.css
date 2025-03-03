@@ -1,0 +1,39 @@
+h5{
+    font-size: 50px;
+    color: burlywood;
+    font-weight: 400;
+}
+h6{
+    font-size: 50px;
+    color: burlywood;
+    font-weight: 400;
+}
+p{
+    font-size: 60px;
+    color: green
+     ;
+}
+.para{
+    color: blueviolet;
+}
+.fs{
+    font-size: 60px;
+}
+.fs1{
+    font-size: 80px;
+}
+#abc{
+    color: brown;
+    font-size: 50px;
+}
+
+.t_uppercase{
+    text-transform: uppercase;
+
+}
+.t_captilize{
+    text-transform: capitalize;
+}
+.t_lowercase{
+    text-transform: lowercase;
+}
