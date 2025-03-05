@@ -8,11 +8,7 @@ h6{
     color: burlywood;
     font-weight: 400;
 }
-p{
-    font-size: 60px;
-    color: green
-     ;
-}
+
 .para{
     color: blueviolet;
 }
@@ -36,4 +32,57 @@ p{
 }
 .t_lowercase{
     text-transform: lowercase;
+}
+.t_align_right{
+    text-align: right;
+}
+.t_align_center{
+    text-align: center;
+}
+.t_indent{
+    text-indent: 50px !important;
+    line-height: 30px;
+}
+.t_letter_spacing{
+    letter-spacing: 5px;
+}
+.t_word_spacing{
+    word-spacing: 5px;
+}
+.t_decor{
+    text-decoration: underline line-through overline;
+}
+.t_shadow{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(32, 31, 31);
+    text-shadow: 10px 8px 5px rgb(99, 72, 72);
+}
+.t_shadow1{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(129, 129, 236);
+    text-shadow: 10px 9px 7px rgb(63, 62, 62);
+
+}
+.b_shadow{
+    width: 500px;
+    height: 700px;
+    box-shadow: 8px 4px 2px rgb(241, 131, 131);
+   float: right;
+}
+.d_shadow{
+    width: 500px;
+    height: 600px;
+    filter: drop-shadow(20px 10px 10px rgb(58, 58, 58));
+    text-align: center;
+}
+.box_model{
+    border: 5px solid gray;
+    padding: 40px 60px 40px 60px;
+    margin: 150px 140px 150px 140px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 10px;
+    text-indent: 30px;
 }
