@@ -78,11 +78,99 @@ h6{
     text-align: center;
 }
 .box_model{
-    border: 5px solid gray;
+    border: 20px solid gray;
     padding: 40px 60px 40px 60px;
     margin: 150px 140px 150px 140px;
-    word-spacing: 5px;
-    letter-spacing: 2px;
-    line-height: 10px;
-    text-indent: 30px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    line-height: 20px;    
+}
+.img{
+    
+    /* padding: 40px 60px 40px 60px;
+    margin: 150px 140px 150px 140px; */
+    width: 200px;
+    height: 180px;
+    background-image: url(/image/india.jpg);
+
+}
+.b_properties{
+    /* solid,dashed,dotted,double,inset,outset */
+    border: 10px  double  gray ;
+    margin: 100px;
+    padding: 40px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    text-indent: 50px;
+    text-align: justify;
+   
+}
+.b_img{
+    border: 10px outset  rgb(95, 209, 241) ;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px 10px 20px 10px;
+    
+    
+    
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 10px blueviolet;
+    background-color: rgb(236, 151, 151);
+}
+.box1{
+    position: static;
+
+}
+.box2{
+    position: relative;
+    left: 300px;
+    top: 40px;
+}
+.box3{
+    position: absolute;
+    left: 300px;
+    top: 40px;
+}
+.box4{
+    position: sticky;
+    left: 300px;
+    top: 40px;
+}
+.box5{
+    position: fixed;
+    left: 300px;
+    bottom: 40px;
+}
+.hall{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(75, 70, 70);
+}
+.tv{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(177, 112, 238);
+    left: 190px;
+}
+.sofa{
+    position: absolute;
+    height: 50px;
+    width: 250px;
+    background-image: url(/image/india.jpg);
+    top: 200px;
+    left: 120px;
+    
+}
+.fridge{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    left: 450px;
+    top: 450px;
 }
