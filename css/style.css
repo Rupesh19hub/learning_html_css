@@ -246,3 +246,107 @@ input:focus{
 a:visited{
     color: brown;
 }
+.image-wrapper{
+ position: absolute;
+}
+.inner-img{
+    border: 5px solid rebeccapurple;
+    width: 600px;
+    height: 400px;
+    transition: 5s;
+}
+.inner-img:hover{
+    transform: scale(2);
+}
+.t-box{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    border-radius: 40px;
+    float: left;
+    margin-left: 40px;
+}
+.t-box1:hover{
+    transform: translate(200px,200px);
+}
+.t-box2:hover{
+    transform: translatex(200px,200px);
+}
+.t-box3:hover{
+    transform: translatey(200px,200px);
+}
+.t-box4:hover{
+    transform:rotate(360deg)
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    position: relative;
+    animation: rupesh;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes rupesh {
+    0%{background-color: rgb(0, 200, 255);left:0px;top:0px;}
+    25%{background-color: rgb(0, 255, 89);left:300px;top:0px;}
+    50%{background-color: rgb(255, 38, 0);left:300px;top:300px;}
+    75%{background-color: rgb(170, 0, 255);left:0px;top:300px;}
+    100%{background-color: rgb(183, 255, 0);left:0px;top:0px;}
+}
+/* #txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  sans-serif;
+    letter-spacing: 3.5px;
+    font-size: 3.5rem;
+    font-weight: 700;
+    position: relative;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -webkit-perspective: 100px;
+
+}
+#txt b{
+
+    height: 3.5rem;
+    box-shadow: 0 .4rem .3rem -.3rem #aaa;
+    color: antiquewhite;
+    background: red;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transform-origin: bottom;
+    -webkit-transform: rotate(-85deg);
+    animation: getup;
+    animation-duration: 7s;
+    -o-animation-iteration-count: infinite;
+
+}
+#txt>b:nth-child(2){
+    animation-delay: .25s;
+}
+#txt>b:nth-child(3){
+    animation-delay: .5s;
+}
+#txt>b:nth-child(4){
+    animation-delay: .75s;
+}
+#txt>b:nth-child(5){
+    animation-delay: 1s;
+}
+#txt>b:nth-child(6){
+    animation-delay: 1.25s;
+}
+@keyframes getup {
+    10%,50%{
+        transform: rotatex(0);
+    }
+    0%,60%,100%{
+        transform: rotatex(-85deg);
+
+    }
+
+} */
